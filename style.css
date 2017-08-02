@@ -1,0 +1,44 @@
+
+
+header{
+font-family: 'Roboto', sans-serif;
+  color: #e0e0d1;
+  background: black;
+  display: block;
+  overflow: hidden;
+  padding: 5px;
+}
+body{
+  margin: 0;
+  background:  #e0e0d1;
+}
+.bands{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  list-style-type: none;
+
+}
+.band-name{
+  font-family: 'Roboto', sans-serif;
+  flex-direction: column;
+  list-style-type: none;
+  width: 23%;
+  padding: 1%;
+}
+
+@media screen and (min-width: 640px) and (max-width: 1024px){
+.band-name{
+  width: 48%;
+}
+
+
+}
+@media screen and (max-width: 640px){
+.band-name{
+  width: 98%;
+}
+
+
+}
+
